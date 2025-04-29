@@ -1,0 +1,4 @@
+asvetliakov.vscode-neovim
+jdinhlife.gruvbox
+ms-azuretools.vscode-containers
+ms-vscode-remote.vscode-remote-extensionpack
