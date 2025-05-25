@@ -16,10 +16,6 @@
 		"command": "workbench.action.focusRightGroup"
 	},
 	{
-		"key": "ctrl+k o",
-		"command": "-workbench.action.copyEditorToNewWindow"
-	},
-	{
 		"key": "ctrl+k n",
 		"command": "workbench.action.files.newUntitledFile"
 	},
@@ -30,6 +26,30 @@
 	{
 		"key": "ctrl+k q",
 		"command": "workbench.action.closeActiveEditor"
+	},
+	{
+		"key": "ctrl+k o",
+		"command": "-workbench.action.copyEditorToNewWindow"
+	},
+	{
+		"key": "ctrl+k o",
+		"command": "workbench.action.newEmptyEditorWindow"
+	},
+	{
+		"key": "ctrl+k a",
+		"command": "workbench.action.toggleActivityBarVisibility"
+	},
+	{
+		"key": "ctrl+k s",
+		"command": "workbench.action.toggleStatusbarVisibility"
+	},
+	{
+		"key": "ctrl+b",
+		"command": "-workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+k b",
+		"command": "workbench.action.toggleSidebarVisibility"
 	},
 	{
 		"key": "ctrl+k shift+h",
@@ -48,10 +68,6 @@
 		"command": "workbench.action.moveEditorToRightGroup"
 	},
 	{
-		"key": "ctrl+k shift+o",
-		"command": "workbench.action.copyEditorToNewWindow"
-	},
-	{
 		"key": "ctrl+k alt+h",
 		"command": "workbench.action.newGroupLeft"
 	},
@@ -66,10 +82,6 @@
 	{
 		"key": "ctrl+k alt+l",
 		"command": "workbench.action.newGroupRight"
-	},
-	{
-		"key": "ctrl+k alt+o",
-		"command": "workbench.action.copyEditorGroupToNewWindow"
 	},
 	{
 		"key": "ctrl+tab",
