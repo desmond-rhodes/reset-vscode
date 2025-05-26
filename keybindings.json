@@ -53,8 +53,9 @@
 	{ "command": "workbench.action.quickOpen"                  , "key": "ctrl+k p"       },
 	{ "command": "workbench.action.showOutputChannels"         , "key": "ctrl+k u"       },
 	{ "command": "workbench.action.terminal.moveToEditor"      , "key": "ctrl+k `"       },
+	{ "command": "workbench.action.terminal.newLocal"          , "key": "ctrl+alt+`"     },
 	{ "command": "workbench.action.toggleActivityBarVisibility", "key": "ctrl+k a"       },
 	{ "command": "workbench.action.togglePanel"                , "key": "ctrl+k d"       },
 	{ "command": "workbench.action.toggleSidebarVisibility"    , "key": "ctrl+k b"       },
-	{ "command": "workbench.action.toggleStatusbarVisibility"  , "key": "ctrl+k s"       },
+	{ "command": "workbench.action.toggleStatusbarVisibility"  , "key": "ctrl+k s"       }
 ]
