@@ -24,6 +24,7 @@
 	},
 	"vscode-neovim.neovimExecutablePaths.linux": "/opt/nvim-linux-x86_64/bin/nvim",
 	"vscode-neovim.useWSL": true,
+	"vscode-neovim.wslDistribution": "devcontainer",
 	"window.autoDetectColorScheme": true,
 	"window.confirmBeforeClose": "always",
 	"window.menuBarVisibility": "compact",
