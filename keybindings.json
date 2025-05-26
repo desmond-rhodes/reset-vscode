@@ -1,191 +1,60 @@
 [
-	{
-		"key": "ctrl+k h",
-		"command": "workbench.action.focusLeftGroup"
-	},
-	{
-		"key": "ctrl+k j",
-		"command": "workbench.action.focusBelowGroup"
-	},
-	{
-		"key": "ctrl+k k",
-		"command": "workbench.action.focusAboveGroup"
-	},
-	{
-		"key": "ctrl+k l",
-		"command": "workbench.action.focusRightGroup"
-	},
-	{
-		"key": "ctrl+k n",
-		"command": "workbench.action.files.newUntitledFile"
-	},
-	{
-		"key": "ctrl+k q",
-		"command": "workbench.action.closeActiveEditor"
-	},
-	{
-		"key": "ctrl+k o",
-		"command": "-workbench.action.copyEditorToNewWindow"
-	},
-	{
-		"key": "ctrl+k o",
-		"command": "workbench.action.newEmptyEditorWindow"
-	},
-	{
-		"key": "ctrl+k `",
-		"command": "workbench.action.terminal.moveToEditor"
-	},
-	{
-		"key": "ctrl+k a",
-		"command": "workbench.action.toggleActivityBarVisibility"
-	},
-	{
-		"key": "ctrl+k s",
-		"command": "workbench.action.toggleStatusbarVisibility"
-	},
-	{
-		"key": "ctrl+k ;",
-		"command": "breadcrumbs.toggle"
-	},
-	{
-		"key": "ctrl+b",
-		"command": "-workbench.action.toggleSidebarVisibility"
-	},
-	{
-		"key": "ctrl+k b",
-		"command": "workbench.action.toggleSidebarVisibility"
-	},
-	{
-		"key": "ctrl+k d",
-		"command": "-workbench.files.action.compareWithSaved"
-	},
-	{
-		"key": "ctrl+k d",
-		"command": "workbench.action.togglePanel"
-	},
-	{
-		"key": "ctrl+k p",
-		"command": "-workbench.action.files.copyPathOfActiveFile"
-	},
-	{
-		"key": "ctrl+k p",
-		"command": "workbench.action.quickOpen"
-	},
-	{
-		"key": "ctrl+k u",
-		"command": "-workbench.action.closeUnmodifiedEditors"
-	},
-	{
-		"key": "ctrl+k u",
-		"command": "workbench.action.showOutputChannels"
-	},
-	{
-		"key": "ctrl+k shift+h",
-		"command": "workbench.action.moveEditorToLeftGroup"
-	},
-	{
-		"key": "ctrl+k shift+j",
-		"command": "workbench.action.moveEditorToBelowGroup"
-	},
-	{
-		"key": "ctrl+k shift+k",
-		"command": "workbench.action.moveEditorToAboveGroup"
-	},
-	{
-		"key": "ctrl+k shift+l",
-		"command": "workbench.action.moveEditorToRightGroup"
-	},
-	{
-		"key": "ctrl+k shift+u",
-		"command": "workbench.action.openActiveLogOutputFile"
-	},
-	{
-		"key": "ctrl+k alt+h",
-		"command": "workbench.action.newGroupLeft"
-	},
-	{
-		"key": "ctrl+k alt+j",
-		"command": "workbench.action.newGroupBelow"
-	},
-	{
-		"key": "ctrl+k alt+k",
-		"command": "workbench.action.newGroupAbove"
-	},
-	{
-		"key": "ctrl+k alt+l",
-		"command": "workbench.action.newGroupRight"
-	},
-	{
-		"key": "ctrl+tab",
-		"command": "workbench.action.nextEditorInGroup"
-	},
-	{
-		"key": "ctrl+tab",
-		"command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
-		"when": "!activeEditorGroupEmpty"
-	},
-	{
-		"key": "ctrl+tab",
-		"command": "-workbench.action.quickOpenNavigateNextInEditorPicker",
-		"when": "inEditorsPicker && inQuickOpen"
-	},
-	{
-		"key": "ctrl+shift+tab",
-		"command": "workbench.action.previousEditorInGroup"
-	},
-	{
-		"key": "ctrl+shift+tab",
-		"command": "-workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
-		"when": "!activeEditorGroupEmpty"
-	},
-	{
-		"key": "ctrl+shift+tab",
-		"command": "-workbench.action.quickOpenNavigatePreviousInEditorPicker",
-		"when": "inEditorsPicker && inQuickOpen"
-	},
-	{
-		"key": "ctrl+i",
-		"command": "hideSuggestWidget",
-		"when": "suggestWidgetVisible && textInputFocus && suggestWidgetHasFocusedSuggestion"
-	},
-	{
-		"key": "j",
-		"command": "selectNextSuggestion",
-		"when": "suggestWidgetHasFocusedSuggestion"
-	},
-	{
-		"key": "k",
-		"command": "selectPrevSuggestion",
-		"when": "suggestWidgetHasFocusedSuggestion"
-	},
-	{
-		"key": "ctrl+i",
-		"command": "-inlineChat.start",
-		"when": "editorFocus && inlineChatHasEditsAgent && inlineChatPossible && !editorReadonly && !editorSimpleInput || editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly && !editorSimpleInput"
-	},
-	{
-		"key": "ctrl+i",
-		"command": "-inlineChat.startWithCurrentLine",
-		"when": "inlineChatHasProvider && inlineChatShowingHint && !editorReadonly && !inlineChatVisible"
-	},
-	{
-		"key": "ctrl+i",
-		"command": "-workbench.action.terminal.chat.start",
-		"when": "chatIsEnabled && terminalChatAgentRegistered && terminalFocusInAny && terminalHasBeenCreated || chatIsEnabled && terminalChatAgentRegistered && terminalFocusInAny && terminalProcessSupported"
-	},
-	{
-		"key": "ctrl+i",
-		"command": "-inlineChat2.reveal",
-		"when": "inlineChatHasEditsAgent && !chatEdits.isGlobalEditingSession && chatEdits.requestCount >= 1"
-	},
-	{
-		"key": "ctrl+i",
-		"command": "-inlineChat2.stop",
-		"when": "inlineChatHasEditsAgent && inlineChatVisible && chatEdits.requestCount == '0'"
-	},
-	{
-		"key": "ctrl+i",
-		"command": "-inlineChat.holdForSpeech",
-		"when": "hasSpeechProvider && inlineChatVisible && textInputFocus"
-	}
+	{ "command": "-inlineChat.holdForSpeech"            , "key": "ctrl+i",
+	     "when":     "hasSpeechProvider && inlineChatVisible && textInputFocus" },
+	{ "command": "-inlineChat.start"                    , "key": "ctrl+i",
+	     "when":     "editorFocus && inlineChatHasEditsAgent && inlineChatPossible && !editorReadonly && !editorSimpleInput || editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly && !editorSimpleInput" },
+	{ "command": "-inlineChat.startWithCurrentLine"     , "key": "ctrl+i",
+	     "when":     "inlineChatHasProvider && inlineChatShowingHint && !editorReadonly && !inlineChatVisible" },
+	{ "command": "-inlineChat2.reveal"                  , "key": "ctrl+i",
+	     "when":     "inlineChatHasEditsAgent && !chatEdits.isGlobalEditingSession && chatEdits.requestCount >= 1" },
+	{ "command": "-inlineChat2.stop"                    , "key": "ctrl+i",
+	     "when":     "inlineChatHasEditsAgent && inlineChatVisible && chatEdits.requestCount == '0'" },
+	{ "command": "-workbench.action.terminal.chat.start", "key": "ctrl+i",
+	     "when":     "chatIsEnabled && terminalChatAgentRegistered && terminalFocusInAny && terminalHasBeenCreated || chatIsEnabled && terminalChatAgentRegistered && terminalFocusInAny && terminalProcessSupported" },
+
+	{ "command": "-workbench.action.closeUnmodifiedEditors"                    , "key": "ctrl+k u"        },
+	{ "command": "-workbench.action.copyEditorToNewWindow"                     , "key": "ctrl+k o"        },
+	{ "command": "-workbench.action.files.copyPathOfActiveFile"                , "key": "ctrl+k p"        },
+	{ "command": "-workbench.action.quickOpenLeastRecentlyUsedEditorInGroup"   , "key": "ctrl+shift+tab",
+	     "when":     "!activeEditorGroupEmpty"                                                            },
+	{ "command": "-workbench.action.quickOpenNavigateNextInEditorPicker"       , "key": "ctrl+tab",
+	     "when":     "inEditorsPicker && inQuickOpen"                                                     },
+	{ "command": "-workbench.action.quickOpenNavigatePreviousInEditorPicker"   , "key": "ctrl+shift+tab",
+	     "when":     "inEditorsPicker && inQuickOpen"                                                     },
+	{ "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup", "key": "ctrl+tab",
+	     "when":     "!activeEditorGroupEmpty"                                                            },
+	{ "command": "-workbench.files.action.compareWithSaved"                    , "key": "ctrl+k d"        },
+
+	{ "command": "breadcrumbs.toggle"                          , "key": "ctrl+k ;"       },
+	{ "command": "hideSuggestWidget"                           , "key": "ctrl+i",
+	     "when":     "suggestWidgetVisible"                                              },
+	{ "command": "selectNextSuggestion"                        , "key": "j",
+	     "when":     "suggestWidgetHasFocusedSuggestion"                                 },
+	{ "command": "selectPrevSuggestion"                        , "key": "k",
+	     "when":     "suggestWidgetHasFocusedSuggestion"                                 },
+	{ "command": "workbench.action.closeActiveEditor"          , "key": "ctrl+k q"       },
+	{ "command": "workbench.action.files.newUntitledFile"      , "key": "ctrl+k n"       },
+	{ "command": "workbench.action.focusAboveGroup"            , "key": "ctrl+k k"       },
+	{ "command": "workbench.action.focusBelowGroup"            , "key": "ctrl+k j"       },
+	{ "command": "workbench.action.focusLeftGroup"             , "key": "ctrl+k h"       },
+	{ "command": "workbench.action.focusRightGroup"            , "key": "ctrl+k l"       },
+	{ "command": "workbench.action.moveEditorToAboveGroup"     , "key": "ctrl+k shift+k" },
+	{ "command": "workbench.action.moveEditorToBelowGroup"     , "key": "ctrl+k shift+j" },
+	{ "command": "workbench.action.moveEditorToLeftGroup"      , "key": "ctrl+k shift+h" },
+	{ "command": "workbench.action.moveEditorToRightGroup"     , "key": "ctrl+k shift+l" },
+	{ "command": "workbench.action.newEmptyEditorWindow"       , "key": "ctrl+k o"       },
+	{ "command": "workbench.action.newGroupAbove"              , "key": "ctrl+k alt+k"   },
+	{ "command": "workbench.action.newGroupBelow"              , "key": "ctrl+k alt+j"   },
+	{ "command": "workbench.action.newGroupLeft"               , "key": "ctrl+k alt+h"   },
+	{ "command": "workbench.action.newGroupRight"              , "key": "ctrl+k alt+l"   },
+	{ "command": "workbench.action.nextEditorInGroup"          , "key": "ctrl+tab"       },
+	{ "command": "workbench.action.openActiveLogOutputFile"    , "key": "ctrl+k shift+u" },
+	{ "command": "workbench.action.previousEditorInGroup"      , "key": "ctrl+shift+tab" },
+	{ "command": "workbench.action.quickOpen"                  , "key": "ctrl+k p"       },
+	{ "command": "workbench.action.showOutputChannels"         , "key": "ctrl+k u"       },
+	{ "command": "workbench.action.terminal.moveToEditor"      , "key": "ctrl+k `"       },
+	{ "command": "workbench.action.toggleActivityBarVisibility", "key": "ctrl+k a"       },
+	{ "command": "workbench.action.togglePanel"                , "key": "ctrl+k d"       },
+	{ "command": "workbench.action.toggleSidebarVisibility"    , "key": "ctrl+k b"       },
+	{ "command": "workbench.action.toggleStatusbarVisibility"  , "key": "ctrl+k s"       },
 ]
