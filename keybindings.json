@@ -20,10 +20,6 @@
 		"command": "workbench.action.files.newUntitledFile"
 	},
 	{
-		"key": "ctrl+k `",
-		"command": "workbench.action.createTerminalEditor"
-	},
-	{
 		"key": "ctrl+k q",
 		"command": "workbench.action.closeActiveEditor"
 	},
@@ -36,6 +32,10 @@
 		"command": "workbench.action.newEmptyEditorWindow"
 	},
 	{
+		"key": "ctrl+k `",
+		"command": "workbench.action.terminal.moveToEditor"
+	},
+	{
 		"key": "ctrl+k a",
 		"command": "workbench.action.toggleActivityBarVisibility"
 	},
@@ -44,12 +44,40 @@
 		"command": "workbench.action.toggleStatusbarVisibility"
 	},
 	{
+		"key": "ctrl+k ;",
+		"command": "breadcrumbs.toggle"
+	},
+	{
 		"key": "ctrl+b",
 		"command": "-workbench.action.toggleSidebarVisibility"
 	},
 	{
 		"key": "ctrl+k b",
 		"command": "workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+k d",
+		"command": "-workbench.files.action.compareWithSaved"
+	},
+	{
+		"key": "ctrl+k d",
+		"command": "workbench.action.togglePanel"
+	},
+	{
+		"key": "ctrl+k p",
+		"command": "-workbench.action.files.copyPathOfActiveFile"
+	},
+	{
+		"key": "ctrl+k p",
+		"command": "workbench.action.quickOpen"
+	},
+	{
+		"key": "ctrl+k u",
+		"command": "-workbench.action.closeUnmodifiedEditors"
+	},
+	{
+		"key": "ctrl+k u",
+		"command": "workbench.action.showOutputChannels"
 	},
 	{
 		"key": "ctrl+k shift+h",
@@ -66,6 +94,10 @@
 	{
 		"key": "ctrl+k shift+l",
 		"command": "workbench.action.moveEditorToRightGroup"
+	},
+	{
+		"key": "ctrl+k shift+u",
+		"command": "workbench.action.openActiveLogOutputFile"
 	},
 	{
 		"key": "ctrl+k alt+h",
