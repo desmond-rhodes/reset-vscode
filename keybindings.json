@@ -60,6 +60,7 @@
 	{ "command": "workbench.action.previousEditorInGroup"      , "key": "ctrl+shift+tab" },
 	{ "command": "workbench.action.quickOpen"                  , "key": "ctrl+k p"       },
 	{ "command": "workbench.action.showOutputChannels"         , "key": "ctrl+k u"       },
+	{ "command": "workbench.action.tasks.test"                 , "key": "ctrl+k f"       },
 	{ "command": "workbench.action.terminal.moveToEditor"      , "key": "ctrl+k `"       },
 	{ "command": "workbench.action.terminal.newLocal"          , "key": "ctrl+alt+`"     },
 	{ "command": "workbench.action.toggleActivityBarVisibility", "key": "ctrl+k a"       },
