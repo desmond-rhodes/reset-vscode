@@ -15,6 +15,8 @@
 	{ "command": "-workbench.action.closeAllEditors"                           , "key": "ctrl+k ctrl+w"       },
 	{ "command": "-workbench.action.closeAllGroups"                            , "key": "ctrl+k ctrl+shift+w" },
 	{ "command": "-workbench.action.closeEditorsInGroup"                       , "key": "ctrl+k w"            },
+	{ "command": "-workbench.action.closeFolder"                               , "key": "ctrl+k f",
+	     "when":     "emptyWorkspaceSupport && workbenchState != 'empty'"                                     },
 	{ "command": "-workbench.action.closeGroup"                                , "key": "ctrl+w",
 	     "when":     "activeEditorGroupEmpty && multipleEditorGroups"                                         },
 	{ "command": "-workbench.action.closeUnmodifiedEditors"                    , "key": "ctrl+k u"            },
@@ -32,7 +34,7 @@
 
 	{ "command": "breadcrumbs.toggle"                          , "key": "ctrl+k ;"       },
 	{ "command": "hideSuggestWidget"                           , "key": "ctrl+i",
-	     "when":     "suggestWidgetVisible"                                              },
+	     "when":     "suggestWidgetVisible && suggestWidgetHasFocusedSuggestion"         },
 	{ "command": "selectNextSuggestion"                        , "key": "j",
 	     "when":     "suggestWidgetHasFocusedSuggestion"                                 },
 	{ "command": "selectPrevSuggestion"                        , "key": "k",
