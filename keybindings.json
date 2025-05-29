@@ -12,6 +12,8 @@
 	{ "command": "-workbench.action.terminal.chat.start", "key": "ctrl+i",
 	     "when":     "chatIsEnabled && terminalChatAgentRegistered && terminalFocusInAny && terminalHasBeenCreated || chatIsEnabled && terminalChatAgentRegistered && terminalFocusInAny && terminalProcessSupported" },
 
+	{ "command": "-markdown.showPreview"                                       , "key": "ctrl+shift+v",
+	     "when":     "!notebookEditorFocused && editorLangId == 'markdown'"                                   },
 	{ "command": "-workbench.action.closeAllEditors"                           , "key": "ctrl+k ctrl+w"       },
 	{ "command": "-workbench.action.closeAllGroups"                            , "key": "ctrl+k ctrl+shift+w" },
 	{ "command": "-workbench.action.closeEditorsInGroup"                       , "key": "ctrl+k w"            },
